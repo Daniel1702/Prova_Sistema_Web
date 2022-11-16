@@ -1,0 +1,198 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>JavaScript</title> <!-- Define o título da página // Daniel e Flavia-->
+
+    <!-- Principal CSS do Bootstrap --> 
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="javalogo.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>JavaScript</h1> <!--  h1 >> Cria um título em html //Título de conteúdo // Daniel e Flavia-->
+                <p>Conhecendo melhor a linguagem!</p>
+                <p><a class="btn btn-lg btn-primary" href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank" role="button">Saiba mais</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="javalogo2.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>JavaScript </h1> <!--  h1 >> Cria um título em html //Título de conteúdo // Daniel e Flavia-->
+                <p>Linguagem de alto nível!</p> 
+                <p><a class="btn btn-lg btn-primary" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction" target="_blank" role="button">Saiba mais</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="javalogo3.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>JavaScript</h1><!--  h1 >> Cria um título em html //Título de conteúdo // Daniel e Flavia-->
+                <p>Linguagem de Programação!.</p>
+                <p><a class="btn btn-lg btn-primary" href="https://www.devmedia.com.br/javascript-tutorial/37257" target="_blank" role="button">Saiba Mais</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Voltar</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Avançar</span>
+        </a>
+      </div>
+
+
+      <!-- Mensagens de marketing e outras featurezinhas
+      ================================================== -->
+      <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
+
+      <div class="container marketing">
+
+        <!-- Três colunas de texto, abaixo do carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="javascript01.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>O que é JavaScript?</h2>
+            <p>É uma linguagem de modelagem simples que permite gerar marcação HTML com JavaScript simples. Como principais características, destaque para: Uso de JavaScript. Simples para desenvolver aplicações/serviços.
+            </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="javascript02.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Características JavaScript</h2>
+            <p>Quanto à JavaScript, o principal ponto a ser destacado é o fato de ela ser considerada uma linguagem de alto nível, o que significa que ela não usa codificações mais tradicionais de máquina, como “0” e “1”. Os códigos criados em JavaScript são mais voltados para uma linguagem humana, de fácil interpretação.uma linguagem baseada em objetos. é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar múltimídias, imagens animadas, e tudo o mais que há de intessante.
+            </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="javascript03.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>O que dá para fazer em JavaScript?</h2>
+            <p>O JavaScript (JS) é uma linguagem de programação utilizada principalmente em páginas web. Com o JS, você pode mostrar mensagens e outras informações interessantes, fazer verificações ou mudar dinamicamente a apresentação visual das páginas, conforme o comportamento que você deseja que sua página (ou aplicação) possua.
+            </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">    
+            <h2 class="featurette-heading"><strong>Alert</strong><span class="text-muted"><br>Código JS</span></h2>
+            <p class="lead">O alert é uma das mais simples caixas de diálogo, com uma aparência simples e intuitiva elas são muito usadas em validações de formulários e/ou bloqueio de ações do browser.
+
+              Sua principal função é mostrar ao usuário uma mensagem e um botão de confirmação de que o usuário tenha visto a mensagem. Para chamar essa função, basta utilizarmos o código alert(), que receberá uma string(mensagem que será exibida ao usuário).</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="alertc.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading"><strong>Prompt</strong><span class="text-muted"><br>Código JS</span></h2>
+            <p class="lead"> O prompt é um pouco diferente do alert() e do confirm(), pois ele necessita que o usuário insira algum valor, ou seja, precisa de uma interação direta do usuário para que ele funcione.
+
+              Para chamarmos a função utilizamos o prompt(), o qual irá receber uma string(mensagem) que será exibida, normalmente em forma de pergunta, ao usuário.
+              
+              A estrutura básica dessa caixa de diálogo é:</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="promptc.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading"><strong>Comando IF <br>(Estrutura de decisão)</strong> <span class="text-muted">Código JS</span></h2>
+            <p class="lead">IF é uma estrutura de controle utilizada para tomar decisões. Realiza umas ou mais operações em função de uma expressão na forma de condição. Basicamente primeiro é dada uma condição e caso essa condição seja positiva, ele executa a ação.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="if.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /FIM DAS FEATUREZINHAS *-* -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Voltar ao topo</a></p>
+      <!-- Links para o instagram // Daniel e Flavia -->  <p>&copy; Daniel de Andrade,<br>&copy; Flavia Gois, <br>2022&middot; <a href="https://instagram.com/pygois/" target="_blank">  <br>Instagram</a> &middot; <a href="https://instagram.com/danielandrade248/" target="_blank">Instagram²</a></p>
+      </footer>
+    </main>
+
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <!-- Só faz o nossos placeholders de imagens funcionarem. Não precisar copiar a próxima linha! -->
+    <script src="holder.min.js"></script>
+  </body>
+</html>
